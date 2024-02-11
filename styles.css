@@ -1,0 +1,80 @@
+body{
+    background: black;
+    margin: 20px 30px;
+    color: white;
+}
+
+.header-logo{
+    background-image: url(img/header-logo.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        margin: 0px 0px 50px 0px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        filter: contrast(120%);
+}
+
+.logo{
+    padding: 5px 40px;
+}
+
+.logo-s{
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-s:hover{
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav a{
+    margin-left: 5px; /* Додаємо відступ зліва для кожного посилання */
+    padding: 0px 30px 30px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    font-size: 15px;
+    color: rgb(172, 71, 4);
+    text-decoration: underline;
+}
+
+.header-info{
+    display: flex;
+    margin: 75px 45px;
+}
+
+.info-video{
+    padding-left: 550px;
+}
+
+.info-s strong{
+    color: red;
+    font-size: 20px;
+}
+
+.anime strong{
+    font-size: 25px;
+    margin: 25px 660px;
+}
+
+.middle img{
+    margin: 5px 0px;
+}
+
+.middle{
+    float: left;
+}
+
+.within{
+    float: left;
+}
